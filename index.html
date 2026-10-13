@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="scripts/menu.js" defer></script>
+  <script src="scripts/reveal.js" defer></script>
+  <link rel="stylesheet" href="styles/site.css">
+  <title>Med in Black at Cornell</title>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner page-frame">
+      <a class="site-logo" href="index.html"><picture><img src="images/logo.png" alt="Med in Black home"></picture></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Open menu"><span class="hamburger-icon" aria-hidden="true"><span></span><span></span><span></span></span></button>
+      <nav class="site-navigation" id="site-navigation" aria-label="Main navigation">
+        <div class="drawer-heading"><p>Med in Black</p><button class="drawer-close" type="button" aria-label="Close menu">&times;</button></div>
+        <div class="drawer-university"><picture><img src="images/logo.png" alt=""></picture><span>Cornell University</span></div>
+        <p class="navigation-label">Navigation</p>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html" aria-current="page"><span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5M5.5 10v9h13v-9M9.5 19v-5h5v5"></path></svg></span>Home</a></li>
+          <li class="nav-item nav-item-dropdown"><button class="dropdown-toggle" type="button" aria-expanded="false"><span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 3 1.7 5.3L19 10l-5.3 1.7L12 17l-1.7-5.3L5 10l5.3-1.7L12 3Z"></path></svg></span>About<span class="chevron" aria-hidden="true">⌄</span></button><ul class="dropdown-menu"><li><a href="about.html">About overview</a></li><li><a href="about.html#coming-soon">Coming soon</a></li></ul></li>
+          <li class="nav-item nav-item-dropdown"><button class="dropdown-toggle" type="button" aria-expanded="false"><span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"></circle><path d="M12 8v5l3 2"></path></svg></span>Events<span class="chevron" aria-hidden="true">⌄</span></button><ul class="dropdown-menu"><li><a href="events.html#year-2025-26">2025-26 archive</a></li><li><a href="events.html#year-2024-25">2024-25 archive</a></li></ul></li>
+          <li class="nav-item"><a href="members.html"><span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 3 7 9-7 9-7-9 7-9Z"></path></svg></span>Members</a></li>
+          <li class="nav-item nav-item-join"><a class="button button-gold" href="#join-today">Join Today</a></li>
+        </ul>
+        <p class="drawer-motto">To Be Young, Gifted and Black</p>
+      </nav>
+      <button class="drawer-overlay" type="button" aria-label="Close menu"></button>
+    </div>
+  </header>
+  <main>
+    <section class="hero page-frame" aria-labelledby="hero-title">
+      <div class="hero-heading-row">
+        <div class="hero-text">
+          <h1 id="hero-title">To Be Young, Gifted and Black</h1>
+          <div class="hero-support">
+            <p>We build community, celebrate excellence, and support the next generation of Black health professionals at Cornell.</p>
+            <!-- TODO: replace with Google Form link --><a class="button button-dark" href="#">Learn More</a>
+            <!-- TODO: replace with Google Form link --><a class="button button-gold" href="#">Join Today</a>
+          </div>
+        </div>
+        <div class="photo-collage" aria-label="Med in Black community photos">
+          <figure class="collage-panel collage-panel-left"><picture><img src="images/actives.png" alt="Med in Black members gathered together"></picture></figure>
+          <figure class="collage-panel collage-panel-center"><picture><img src="images/actives.png" alt="Med in Black active members gathered together"></picture></figure>
+          <figure class="collage-panel collage-panel-right"><picture><img src="images/actives.png" alt="Med in Black members gathered together"></picture></figure>
+        </div>
+      </div>
+    </section>
+    <section class="intro-band reveal-on-scroll" aria-labelledby="welcome-title"><div class="page-frame split-section"><div><p class="eyebrow">Our community</p><h2 id="welcome-title">Rooted in excellence. Growing together.</h2></div><p>From mentorship and professional development to service and celebration, MIB creates room for students to find their people and shape their future.</p></div></section>
+    <section class="page-section page-frame reveal-on-scroll" id="join-today"><div class="callout"><p class="eyebrow">Your next chapter</p><h2>Make your mark with MIB.</h2><p>Connect with a community that sees your potential and is ready to help you build what comes next.</p><!-- TODO: replace with Google Form link --><a class="button button-gold" href="#">Join Today</a></div></section>
+  </main>
+  <footer class="site-footer"><div class="footer-inner page-frame"><div><p class="footer-motto">To Be Young, Gifted and Black</p><p>&copy; 2026 Med in Black at Cornell University</p></div><nav aria-label="Social and contact links"><ul class="footer-links"><li><a href="https://instagram.com/[HANDLE]">Instagram</a></li><li><a href="mailto:[EMAIL]">Email</a></li></ul></nav></div></footer>
+</body>
+</html>
